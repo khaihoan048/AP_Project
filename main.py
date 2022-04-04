@@ -6,7 +6,7 @@ import time
 mydb = con.connect(host='localhost',
                 user='khaihoan',
                 password='Kh04082002',
-                database='userinfo')
+                database='test')
 cursor=mydb.cursor()
 def run():
     cursor.execute("select * from userinfo")
